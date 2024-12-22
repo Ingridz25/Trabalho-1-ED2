@@ -1,4 +1,4 @@
-import javafx.application.Application;
+/*import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.chart.*;
 import javafx.stage.Stage;
@@ -45,7 +45,7 @@ public class SortingBenchmark extends Application {
         }
         return timeInNs; //Retorna em nanossegundos
     }
-*/
+
     // Métodos para benchmarking
     private long benchmarkBubbleSort() {
         int[] arr = {43, 21, 67, 43, 89, 21, 45, 67, 43, 12, 45, 78, 21, 34, 67, 56, 12, 34, 89, 56,
@@ -249,3 +249,5 @@ public class SortingBenchmark extends Application {
         launch(args);
     }
 }
+
+*/

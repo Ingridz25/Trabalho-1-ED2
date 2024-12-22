@@ -5,7 +5,7 @@ public class SortingBenchmarkMain {
 
     public static void main(String[] args) {
         // Array de teste comum para todos os algoritmos
-        int[] inputArray = {12, 45, 87, 2, 9, 2365, 0};
+        int[] inputArray = {1,2,3,4};
 
         // StableQuickSort - mostra o passo a passo
         System.out.println("\n=== Stable QuickSort ===");

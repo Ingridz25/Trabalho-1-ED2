@@ -113,35 +113,6 @@ public class StableQuickSort{
         return swapCount;
     }
 
-    public static void main(String[] args) {
-        // Exemplo de uso
-        int[] inputArray = {12, 45, 87, 2, 9, 2365, 0};
-
-        // Gerar lista de elementos com índices
-        List<Element> arr = generateElementList(inputArray);
-
-        // Exibir o array antes da ordenação
-        System.out.println("Array antes da ordenaçao:");
-        for (Element e : arr) {
-            System.out.print(e + " ");
-        }
-        System.out.println();
-
-        // Ordenar com Stable QuickSort
-        resetCounters();
-        sort(arr, 0, arr.size() - 1);
-
-        // Exibir o array após a ordenação
-        System.out.println("Array após a ordenaçao:");
-        for (Element e : arr) {
-            System.out.print(e + " ");
-        }
-        System.out.println();
-
-        // Exibir métricas
-        System.out.println("\nNúmero total de comparaçoes: " + getComparisonCount());
-        System.out.println("Número total de trocas: " + getSwapCount());
-    }
 }
 
 
